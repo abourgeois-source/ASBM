@@ -1,0 +1,497 @@
+﻿<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jouw bedrijf is klaar om te groeien | ASBM – AI-automatisering voor KMO's in Europa</title>
+  <meta name="description" content="ASBM helpt kleine bedrijven in Europa uren per week te besparen door handmatig werk te elimineren met AI-automatisering. Boek een gratis gesprek van 30 minuten." />
+  <link rel="canonical" href="https://as-bm.eu/nl/" />
+  <link rel="alternate" hreflang="x-default" href="https://as-bm.eu/en/" />
+  <link rel="alternate" hreflang="nl" href="https://as-bm.eu/nl/" />
+  <link rel="alternate" hreflang="fr" href="https://as-bm.eu/fr/" />
+  <link rel="alternate" hreflang="en" href="https://as-bm.eu/en/" />
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <link rel="preload" href="/fonts/Graphik%20Family/Graphik-Regular-Trial.otf" as="font" type="font/otf" crossorigin />
+  <link rel="preload" href="/fonts/Graphik%20Family/Graphik-Bold-Trial.otf" as="font" type="font/otf" crossorigin />
+  <meta property="og:title" content="AI-automatisering voor KMO's in Europa | ASBM" />
+  <meta property="og:description" content="ASBM helpt kleine bedrijven in Europa uren per week te besparen door handmatig werk te elimineren met AI-automatisering." />
+  <meta property="og:url" content="https://as-bm.eu/nl/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://as-bm.eu/ASBM%20logo%20no%20background%201.png" />
+  <meta property="og:locale" content="nl_BE" />
+  <meta property="og:site_name" content="ASBM" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="AI-automatisering voor KMO's in Europa | ASBM" />
+  <meta name="twitter:description" content="ASBM helpt kleine bedrijven in Europa uren per week te besparen door handmatig werk te elimineren met AI-automatisering." />
+  <style>
+    @font-face{font-family:'Graphik';src:url('/fonts/Graphik Family/Graphik-Regular-Trial.otf') format('opentype');font-weight:400;font-style:normal;font-display:swap}
+    @font-face{font-family:'Graphik';src:url('/fonts/Graphik Family/Graphik-Medium-Trial.otf') format('opentype');font-weight:500;font-style:normal;font-display:swap}
+    @font-face{font-family:'Graphik';src:url('/fonts/Graphik Family/Graphik-Semibold-Trial.otf') format('opentype');font-weight:600;font-style:normal;font-display:swap}
+    @font-face{font-family:'Graphik';src:url('/fonts/Graphik Family/Graphik-Bold-Trial.otf') format('opentype');font-weight:700;font-style:normal;font-display:swap}
+    @font-face{font-family:'Graphik';src:url('/fonts/Graphik Family/Graphik-Black-Trial.otf') format('opentype');font-weight:800;font-style:normal;font-display:swap}
+    :root { --mid:#0E1B2C; --lime:#D4FF4F; --bone:#F5F5F2; --slate:#8A93A5; --text:#1C1C1E; --white:#FFFFFF; --ease:cubic-bezier(0.4,0,0.2,1); }
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{font-family:'Graphik',system-ui,sans-serif;font-size:17px;line-height:1.7;color:var(--text);background:var(--bone);-webkit-font-smoothing:antialiased}
+    body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:1000;opacity:.03;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='1'/%3E%3C/svg%3E");background-repeat:repeat;background-size:128px}
+    .container{max-width:1120px;margin:0 auto;padding:0 28px}
+    .reveal{opacity:0;transform:translateY(24px);transition:opacity .6s var(--ease),transform .6s var(--ease)}
+    .reveal.visible{opacity:1;transform:none}
+    .reveal-delay-1{transition-delay:.1s}.reveal-delay-2{transition-delay:.2s}.reveal-delay-3{transition-delay:.3s}.reveal-delay-4{transition-delay:.4s}
+    .btn-primary{display:inline-flex;align-items:center;gap:8px;background:var(--lime);color:var(--mid);font-family:'Graphik',sans-serif;font-weight:600;font-size:15px;padding:14px 28px;border-radius:8px;text-decoration:none;transition:transform .18s var(--ease),box-shadow .18s var(--ease);box-shadow:0 2px 12px rgba(212,255,79,.35)}
+    .btn-primary:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(212,255,79,.45)}
+    .btn-primary:active{transform:scale(.97)}
+    .btn-primary:focus-visible{outline:3px solid var(--lime);outline-offset:3px}
+    .btn-ghost{display:inline-flex;align-items:center;gap:8px;border:1.5px solid rgba(255,255,255,.28);color:rgba(255,255,255,.85);font-family:'Graphik',sans-serif;font-weight:600;font-size:15px;padding:13px 27px;border-radius:8px;text-decoration:none;transition:border-color .18s var(--ease),background .18s var(--ease),transform .18s var(--ease)}
+    .btn-ghost:hover{border-color:var(--lime);background:rgba(212,255,79,.08);transform:translateY(-2px)}
+    .btn-ghost:active{transform:scale(.97)}
+    .label{font-size:11px;font-weight:600;letter-spacing:2.5px;text-transform:uppercase;color:var(--slate);margin-bottom:12px}
+    .label-lime{color:rgba(212,255,79,.7)}
+    .section-title{font-family:'Graphik',sans-serif;font-size:clamp(26px,3vw,38px);font-weight:700;letter-spacing:-.03em;color:var(--mid);line-height:1.22;max-width:620px}
+    .section-title-white{color:var(--white)}
+    nav{background:var(--mid);position:sticky;top:0;z-index:500;border-bottom:1px solid rgba(255,255,255,.06);transition:background .3s var(--ease)}
+    nav.scrolled{background:rgba(14,27,44,.92);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px)}
+    .nav-inner{display:flex;align-items:center;justify-content:space-between;height:68px}
+    .nav-logo{display:flex;align-items:center;text-decoration:none}
+    .nav-logo img{height:36px;width:auto;object-fit:contain;filter:brightness(0) invert(1)}
+    .nav-links{display:flex;list-style:none;gap:36px}
+    .nav-links a{color:rgba(255,255,255,.68);text-decoration:none;font-size:14px;font-weight:500;letter-spacing:.2px;transition:color .18s var(--ease);position:relative}
+    .nav-links a::after{content:'';position:absolute;bottom:-4px;left:0;right:0;height:1.5px;background:var(--lime);transform:scaleX(0);transform-origin:left;transition:transform .2s var(--ease)}
+    .nav-links a:hover{color:var(--white)}.nav-links a:hover::after{transform:scaleX(1)}
+    .nav-right{display:flex;align-items:center;gap:16px}
+    .lang-switcher{display:flex;gap:6px}
+    .lang-switcher a{color:rgba(255,255,255,.38);font-size:12px;font-weight:600;text-decoration:none;letter-spacing:.8px;transition:color .18s}
+    .lang-switcher a:hover,.lang-switcher a.active{color:var(--lime)}
+    .lang-sep{color:rgba(255,255,255,.15);font-size:11px;align-self:center}
+    .hero{background:var(--mid);padding:96px 0 88px;text-align:center;position:relative;overflow:hidden}
+    .hero-bg{position:absolute;inset:0;pointer-events:none}
+    .hero-bg-glow1{position:absolute;top:-120px;left:50%;transform:translateX(-50%);width:900px;height:600px;background:radial-gradient(ellipse at center,rgba(212,255,79,.08) 0%,transparent 70%)}
+    .hero-bg-glow2{position:absolute;bottom:-80px;right:-100px;width:500px;height:500px;background:radial-gradient(ellipse at center,rgba(212,255,79,.04) 0%,transparent 60%)}
+    .hero-bg-dots{position:absolute;inset:0;background-image:radial-gradient(circle,rgba(255,255,255,.06) 1px,transparent 1px);background-size:32px 32px;mask-image:radial-gradient(ellipse 80% 80% at 50% 50%,black 40%,transparent 100%)}
+    .hero-content{position:relative;z-index:1}
+    .hero-eyebrow{display:inline-block;background:rgba(212,255,79,.12);border:1px solid rgba(212,255,79,.2);color:var(--lime);font-size:11px;font-weight:600;letter-spacing:2px;text-transform:uppercase;padding:6px 16px;border-radius:100px;margin-bottom:32px}
+    .hero h1{font-family:'Graphik',sans-serif;color:var(--white);font-size:clamp(38px,5.5vw,66px);font-weight:800;line-height:1.22;letter-spacing:-.035em;max-width:860px;margin:0 auto 28px}
+    .hero h1 em{color:var(--lime);font-style:normal}
+    .hero-sub{color:rgba(255,255,255,.62);font-size:18px;line-height:1.65;max-width:540px;margin:0 auto 48px}
+    .hero-ctas{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+    .hero-proof{margin-top:64px;display:flex;align-items:center;justify-content:center;gap:12px;color:var(--slate);font-size:13px;font-weight:500;letter-spacing:.3px}
+    .hero-proof::before,.hero-proof::after{content:'';display:inline-block;width:48px;height:1px;background:var(--slate);opacity:.35}
+    .problem{background:var(--white);padding:96px 0}
+    .problem-intro{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:end;margin-bottom:56px}
+    .problem-body{color:var(--slate);font-size:17px;line-height:1.7;max-width:480px}
+    .pain-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+    .pain-card{background:var(--bone);border:1px solid rgba(14,27,44,.07);border-radius:16px;padding:32px 28px;transition:transform .22s var(--ease),box-shadow .22s var(--ease)}
+    .pain-card:hover{transform:translateY(-3px);box-shadow:0 8px 32px rgba(14,27,44,.1),0 2px 8px rgba(14,27,44,.06)}
+    .pain-num{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;background:var(--mid);color:var(--lime);font-family:'Graphik',sans-serif;font-weight:700;font-size:12px;border-radius:6px;margin-bottom:20px;letter-spacing:.5px}
+    .pain-card h3{font-family:'Graphik',sans-serif;font-size:17px;font-weight:700;color:var(--mid);margin-bottom:10px;line-height:1.3;letter-spacing:-.01em}
+    .pain-card p{color:var(--slate);font-size:14.5px;line-height:1.65}
+    .solution{background:var(--mid);padding:96px 0;position:relative;overflow:hidden}
+    .solution::before{content:'';position:absolute;top:-200px;right:-200px;width:700px;height:700px;background:radial-gradient(ellipse at center,rgba(212,255,79,.05) 0%,transparent 65%);pointer-events:none}
+    .solution-intro{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:end;margin-bottom:56px}
+    .solution-body{color:rgba(255,255,255,.58);font-size:17px;line-height:1.7}
+    .outcomes-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+    .outcome-card{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.09);border-radius:16px;padding:28px 24px;transition:border-color .22s var(--ease),background .22s var(--ease),transform .22s var(--ease)}
+    .outcome-card:hover{border-color:rgba(212,255,79,.3);background:rgba(212,255,79,.04);transform:translateY(-3px)}
+    .outcome-icon{font-size:28px;margin-bottom:16px;display:block}
+    .outcome-card h3{font-family:'Graphik',sans-serif;color:var(--white);font-size:16px;font-weight:700;margin-bottom:10px;line-height:1.3;letter-spacing:-.01em}
+    .outcome-card p{color:rgba(255,255,255,.5);font-size:14px;line-height:1.65}
+    .how{background:var(--white);padding:96px 0}
+    .how-header{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:end;margin-bottom:56px}
+    .how-body{color:var(--slate);font-size:17px;line-height:1.7}
+    .steps-wrap{background:var(--bone);border:1px solid rgba(14,27,44,.07);border-radius:20px;overflow:hidden}
+    .steps{display:grid;grid-template-columns:repeat(2,1fr)}
+    .step{padding:36px 32px;border-right:1px solid rgba(14,27,44,.07);border-bottom:1px solid rgba(14,27,44,.07);transition:background .2s var(--ease)}
+    .step:nth-child(2n){border-right:none}.step:nth-last-child(-n+2){border-bottom:none}.step:hover{background:rgba(212,255,79,.03)}
+    .step-num{font-family:'Graphik',sans-serif;font-size:56px;font-weight:800;color:var(--lime);line-height:1;margin-bottom:18px;-webkit-text-stroke:2px var(--mid)}
+    .step h3{font-family:'Graphik',sans-serif;font-size:18px;font-weight:700;color:var(--mid);margin-bottom:10px;letter-spacing:-.01em}
+    .step p{color:var(--slate);font-size:14.5px;line-height:1.65}
+    .who{background:var(--mid);padding:96px 0;position:relative;overflow:hidden}
+    .who::after{content:'';position:absolute;bottom:-150px;left:-100px;width:600px;height:600px;background:radial-gradient(ellipse at center,rgba(212,255,79,.05) 0%,transparent 65%);pointer-events:none}
+    .who-inner{position:relative;z-index:1;max-width:720px}
+    .who-intro{color:rgba(255,255,255,.6);font-size:17px;line-height:1.7;margin-bottom:40px}
+    .who-list{list-style:none}
+    .who-list li{display:flex;gap:16px;color:rgba(255,255,255,.78);font-size:16px;line-height:1.6;padding:16px 0;border-bottom:1px solid rgba(255,255,255,.07)}
+    .who-list li:last-child{border-bottom:none}
+    .who-arrow{flex-shrink:0;width:20px;height:20px;background:rgba(212,255,79,.12);border-radius:4px;display:flex;align-items:center;justify-content:center;margin-top:2px;color:var(--lime);font-size:11px;font-weight:700}
+    .trust{background:var(--bone);padding:80px 0;border-top:1px solid rgba(14,27,44,.07)}
+    .trust-inner{display:flex;align-items:center;justify-content:center;gap:80px;flex-wrap:wrap}
+    .trust-label{color:var(--slate);font-size:11px;font-weight:600;letter-spacing:2px;text-transform:uppercase;text-align:center;margin-bottom:48px}
+    .stat strong{display:block;font-family:'Graphik',sans-serif;font-size:52px;font-weight:800;color:var(--mid);line-height:1;margin-bottom:6px;letter-spacing:-.04em}
+    .stat em{color:var(--slate);font-style:normal;font-size:14px;font-weight:500}
+    .cta-section{background:var(--mid);padding:112px 0;text-align:center;position:relative;overflow:hidden}
+    .cta-section::before{content:'';position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:1000px;height:500px;background:radial-gradient(ellipse at center,rgba(212,255,79,.07) 0%,transparent 65%);pointer-events:none}
+    .cta-content{position:relative;z-index:1}
+    .cta-section h2{font-family:'Graphik',sans-serif;font-size:clamp(30px,4vw,50px);font-weight:800;color:var(--white);letter-spacing:-.035em;line-height:1.2;max-width:700px;margin:0 auto 20px}
+    .cta-section h2 span{color:var(--lime)}
+    .cta-sub{color:rgba(255,255,255,.58);font-size:17px;max-width:460px;margin:0 auto 44px;line-height:1.65}
+    .cta-meta{margin-top:24px;display:flex;align-items:center;justify-content:center;gap:28px;flex-wrap:wrap}
+    .cta-meta-item{display:flex;align-items:center;gap:7px;color:rgba(255,255,255,.45);font-size:13px;font-weight:500}
+    .cta-meta-item::before{content:'✓';width:16px;height:16px;background:rgba(212,255,79,.15);border-radius:50%;display:inline-flex;align-items:center;justify-content:center;font-size:9px;color:var(--lime);flex-shrink:0}
+    footer{background:#08111C;padding:60px 0 32px}
+    .footer-top{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:48px;padding-bottom:48px;border-bottom:1px solid rgba(255,255,255,.08);margin-bottom:28px}
+    .footer-logo-link{display:flex;align-items:center;text-decoration:none}
+    .footer-logo-link img{height:32px;width:auto;object-fit:contain;filter:brightness(0) invert(1)}
+    .footer-brand p{color:rgba(255,255,255,.38);font-size:13.5px;line-height:1.65;margin-top:16px}
+    .footer-col h4{color:rgba(255,255,255,.3);font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:2px;margin-bottom:18px}
+    .footer-col ul{list-style:none}.footer-col ul li{margin-bottom:10px}
+    .footer-col ul a{color:rgba(255,255,255,.55);font-size:14px;text-decoration:none;transition:color .18s var(--ease)}
+    .footer-col ul a:hover{color:var(--white)}
+    .footer-bottom{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
+    .footer-bottom p{color:rgba(255,255,255,.22);font-size:12.5px}
+    .footer-langs{display:flex;gap:10px;align-items:center}
+    .footer-langs a{color:rgba(255,255,255,.3);font-size:12px;font-weight:600;letter-spacing:.8px;text-decoration:none;transition:color .18s}
+    .footer-langs a:hover,.footer-langs a.active{color:var(--lime)}.footer-langs .sep{color:rgba(255,255,255,.15)}
+    .wa-float{position:fixed;bottom:28px;right:28px;width:54px;height:54px;background:#25D366;border-radius:50%;display:flex;align-items:center;justify-content:center;text-decoration:none;box-shadow:0 4px 20px rgba(37,211,102,.4),0 2px 8px rgba(0,0,0,.2);transition:transform .22s var(--ease),box-shadow .22s var(--ease);z-index:400}
+    .wa-float:hover{transform:scale(1.08);box-shadow:0 8px 28px rgba(37,211,102,.5),0 4px 12px rgba(0,0,0,.25)}
+    @media(max-width:1024px){.outcomes-grid{grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:768px){.problem-intro,.solution-intro,.how-header{grid-template-columns:1fr;gap:28px}.pain-grid,.steps{grid-template-columns:1fr}.step{border-right:none!important}.step:nth-last-child(-n+2){border-bottom:1px solid rgba(14,27,44,.07)!important}.step:last-child{border-bottom:none!important}.outcomes-grid{grid-template-columns:1fr}.footer-top{grid-template-columns:1fr 1fr}.trust-inner{gap:40px}.nav-links{display:none}}
+    @media(max-width:520px){.footer-top{grid-template-columns:1fr}}
+  
+    /* ── MOBILE NAV ─────────────────────────────────────── */
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      justify-content: center;
+      gap: 5px;
+      width: 36px;
+      height: 36px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 4px;
+      z-index: 1001;
+      flex-shrink: 0;
+    }
+    .hamburger span {
+      display: block;
+      width: 22px;
+      height: 2px;
+      background: var(--white);
+      border-radius: 2px;
+      transition: transform 0.25s var(--ease), opacity 0.2s;
+    }
+    .hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .hamburger.open span:nth-child(2) { opacity: 0; }
+    .hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+    .mobile-menu {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: var(--mid);
+      z-index: 999;
+      flex-direction: column;
+      padding: 88px 28px 48px;
+      overflow-y: auto;
+    }
+    .mobile-menu.open { display: flex; }
+    .mobile-menu-links {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      margin-bottom: 40px;
+    }
+    .mobile-menu-links li a {
+      display: block;
+      color: rgba(255,255,255,0.75);
+      text-decoration: none;
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      padding: 12px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.07);
+      transition: color 0.18s;
+    }
+    .mobile-menu-links li a:hover,
+    .mobile-menu-links li a.active { color: var(--lime); }
+    .mobile-menu-bottom {
+      margin-top: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .mobile-menu-langs {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+    }
+    .mobile-menu-langs a {
+      color: rgba(255,255,255,0.38);
+      font-size: 13px;
+      font-weight: 600;
+      text-decoration: none;
+      letter-spacing: 0.8px;
+      transition: color 0.18s;
+    }
+    .mobile-menu-langs a:hover,
+    .mobile-menu-langs a.active { color: var(--lime); }
+    .mobile-menu-langs .sep { color: rgba(255,255,255,0.15); }
+    .mobile-menu .btn-primary { align-self: flex-start; }
+    @media (max-width: 768px) {
+      .hamburger { display: flex; }
+      .nav-links { display: none !important; }
+      .nav-right { display: none !important; }
+      .container { padding: 0 20px; }
+      .hero { padding: 64px 0 56px !important; }
+      .hero h1 { font-size: clamp(30px, 9vw, 46px); }
+      .hero-sub { font-size: 16px; }
+      .hero-ctas { flex-direction: column; align-items: stretch; }
+      .hero-ctas a { justify-content: center; }
+      .problem, .how { padding: 64px 0 !important; }
+      section { padding: 64px 0 !important; }
+      .section-title { font-size: clamp(22px, 6vw, 32px) !important; }
+      .pain-grid, .steps, .outcomes-grid { grid-template-columns: 1fr !important; }
+      .problem-intro, .solution-intro, .how-header { grid-template-columns: 1fr !important; gap: 20px !important; }
+      .trust-inner { flex-direction: column; gap: 32px; align-items: flex-start; }
+      .footer-top { grid-template-columns: 1fr !important; gap: 28px; }
+      .footer-bottom { flex-direction: column; align-items: flex-start; gap: 12px; }
+      .wa-float { bottom: 20px; right: 20px; width: 46px; height: 46px; }
+    }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": "https://as-bm.eu/nl/",
+    "url": "https://as-bm.eu/nl/",
+    "inLanguage": "nl",
+    "name": "AI-automatisering voor KMO's in Europa | ASBM",
+    "isPartOf": { "@id": "https://as-bm.eu/#website" },
+    "about": { "@id": "https://as-bm.eu/#organization" }
+  }
+  </script>
+</head>
+<body>
+  <!-- ── MOBILE MENU ──────────────────────────────────── -->
+  <div class="mobile-menu" id="mobile-menu" role="dialog" aria-label="Navigation">
+    <ul class="mobile-menu-links">
+      <li><a href="/nl" class="active">Home</a></li>
+          <li><a href="/nl/diensten">Diensten</a></li>
+          <li><a href="/nl/over-ons">Over ons</a></li>
+          
+          <li><a href="/nl/blog">Blog</a></li><li><a href="/nl/contact">Contact</a></li>
+    </ul>
+    <div class="mobile-menu-bottom">
+      <div class="mobile-menu-langs"><a href="/en">EN</a><span class="sep">·</span><a href="/nl" class="active">NL</a><span class="sep">·</span><a href="/fr">FR</a></div>
+      <a href="https://zcal.co/i/IpigkcAU" class="btn-primary">Gratis gesprek boeken →</a>
+    </div>
+  </div>
+  <nav id="nav">
+    <div class="container">
+      <div class="nav-inner">
+        <a href="/nl" class="nav-logo" aria-label="ASBM Home">
+          <img src="/ASBM%20logo%20no%20background%201.png" alt="ASBM" width="120" height="36" />
+        </a>
+        <ul class="nav-links">
+          <li><a href="/nl" class="active">Home</a></li>
+          <li><a href="/nl/diensten">Diensten</a></li>
+          <li><a href="/nl/over-ons">Over ons</a></li>
+          
+          <li><a href="/nl/blog">Blog</a></li><li><a href="/nl/contact">Contact</a></li>
+        </ul>
+        <div class="nav-right">
+          <div class="lang-switcher">
+            <a href="/en">EN</a>
+            <span class="lang-sep">·</span>
+            <a href="/nl" class="active">NL</a>
+            <span class="lang-sep">·</span>
+            <a href="/fr">FR</a>
+          </div>
+          <a href="https://zcal.co/i/IpigkcAU" class="btn-primary">Boek een gratis gesprek</a>
+        </div>
+        <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-bg"><div class="hero-bg-glow1"></div><div class="hero-bg-glow2"></div><div class="hero-bg-dots"></div></div>
+    <div class="container hero-content">
+      <div class="hero-eyebrow reveal">AI-automatisering voor groeiende bedrijven</div>
+      <h1 class="reveal reveal-delay-1">Je bedrijf is klaar om te groeien.<br /><em>Manueel werk staat dat in de weg.</em></h1>
+      <p class="hero-sub reveal reveal-delay-2">AI-automatisering helpt je af te geraken van de repetitieve taken die je dag opslokken, zodat je je volledig kan richten op wat écht telt voor je groei.</p>
+      <div class="hero-ctas reveal reveal-delay-3">
+        <a href="https://zcal.co/i/IpigkcAU" class="btn-primary">Boek een gratis gesprek →</a>
+        <a href="/nl/diensten" class="btn-ghost">Bekijk hoe het werkt</a>
+      </div>
+      <p class="hero-proof reveal reveal-delay-4">Helpt kleine bedrijven in Europa wekelijks uren te besparen</p>
+    </div>
+  </section>
+
+  <section class="problem">
+    <div class="container">
+      <div class="problem-intro">
+        <div>
+          <p class="label reveal">Herkenbaar?</p>
+          <h2 class="section-title reveal reveal-delay-1">Je hebt een bedrijf te leiden. Maar een groot deel van je dag kruipt in taken die niets met groei te maken hebben.</h2>
+        </div>
+        <p class="problem-body reveal reveal-delay-2">Elk uur dat je spendeert aan administratie, kopiëren en manuele opvolging, is een uur dat niet naar het werk gaat dat je bedrijf vooruit helpt. Dat is de echte kost.</p>
+      </div>
+      <div class="pain-grid">
+        <div class="pain-card reveal">
+          <div class="pain-num">01</div>
+          <h3>Elke dag opnieuw: gegevens kopiëren van het ene programma naar het andere.</h3>
+          <p>Je CRM, je facturatieprogramma, je spreadsheets — ze praten niet met elkaar. Dus doe jij het zelf, en één foutje kost je tijd én geld.</p>
+        </div>
+        <div class="pain-card reveal reveal-delay-1">
+          <div class="pain-num">02</div>
+          <h3>Je stuurt nog altijd opvolgmails, offertes en herinneringen manueel op.</h3>
+          <p>Elke nieuwe lead, elke openstaande factuur, elke nieuwe klant begint met jou die je mailbox opent en dezelfde dingen intypt als vorige week.</p>
+        </div>
+        <div class="pain-card reveal reveal-delay-2">
+          <div class="pain-num">03</div>
+          <h3>Rapporteren kost je uren omdat je programma's niet met elkaar praten.</h3>
+          <p>Om te weten hoe je bedrijf ervoor staat, haal je gegevens op uit drie verschillende plaatsen, smijt je alles in een spreadsheet en verlies je tijd die je eigenlijk niet hebt.</p>
+        </div>
+        <div class="pain-card reveal reveal-delay-3">
+          <div class="pain-num">04</div>
+          <h3>Elke nieuwe klant of project betekent een hele reeks administratie.</h3>
+          <p>Map aanmaken, welkomstmail sturen, toevoegen aan de CRM, de sheet aanpassen. Telkens opnieuw, op dezelfde manier, omdat er geen systeem is dat het voor jou afhandelt.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="solution">
+    <div class="container">
+      <div class="solution-intro">
+        <div>
+          <p class="label label-lime reveal">Wat er voor jou verandert</p>
+          <h2 class="section-title section-title-white reveal reveal-delay-1">Hoe je week eruitziet als het manuele werk wegvalt</h2>
+        </div>
+        <p class="solution-body reveal reveal-delay-2">Van zodra je processen geautomatiseerd zijn, lopen de repetitieve taken vanzelf. Geen achtervolgen, geen dubbele invoer, geen kopiëren en plakken meer.</p>
+      </div>
+      <div class="outcomes-grid">
+        <div class="outcome-card reveal"><span class="outcome-icon">⏱️</span><h3>Uren terug per week</h3><p>Je krijgt de tijd terug die je vroeger verloor aan manuele invoer en opvolging. Elke week opnieuw.</p></div>
+        <div class="outcome-card reveal reveal-delay-1"><span class="outcome-icon">✅</span><h3>Minder fouten, minder rechtzetten</h3><p>Je team maakt geen fouten meer die ontstaan door honderd keer dezelfde taak te doen. Het proces verloopt elke keer op dezelfde manier.</p></div>
+        <div class="outcome-card reveal reveal-delay-2"><span class="outcome-icon">📈</span><h3>Meer werk, zelfde team</h3><p>Je bedrijf verwerkt meer zonder dat je iemand extra moet aanwerven om de bijkomende werklast op te vangen.</p></div>
+        <div class="outcome-card reveal reveal-delay-3"><span class="outcome-icon">🎯</span><h3>Jij houdt niet langer alles recht</h3><p>Je bent niet meer de persoon die de operationele taken zelf uitvoert. Dat loopt vanzelf. Jij focust op groei.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="how">
+    <div class="container">
+      <div class="how-header">
+        <div>
+          <p class="label reveal">Het proces</p>
+          <h2 class="section-title reveal reveal-delay-1">Hoe het werkt</h2>
+        </div>
+        <p class="how-body reveal reveal-delay-2">Vier stappen. Geen jargon. Geen technische keuzes voor jou. Je vertelt hoe je bedrijf werkt, en je vertrekt met een werkende automatisering.</p>
+      </div>
+      <div class="steps-wrap reveal">
+        <div class="steps">
+          <div class="step"><div class="step-num">01</div><h3>Diagnose</h3><p>Je ontdekt waar je tijd en geld naartoe kruipen. In één gesprek breng je de processen in kaart die je het meest kosten.</p></div>
+          <div class="step"><div class="step-num">02</div><h3>Ontwerp</h3><p>Je ziet precies wat er geautomatiseerd wordt en hoe dat aansluit op je bestaande programma's. Geen jargon. Geen technische keuzes voor jou.</p></div>
+          <div class="step"><div class="step-num">03</div><h3>Bouwen</h3><p>De automatisering wordt gebouwd in de tools die je al gebruikt. Je wordt op de hoogte gehouden zonder het zelf te moeten opvolgen.</p></div>
+          <div class="step"><div class="step-num">04</div><h3>Oplevering</h3><p>De automatisering gaat live. Je krijgt uitleg over hoe alles in elkaar zit en de nodige ondersteuning zodat het blijft draaien na de oplevering.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="who">
+    <div class="container">
+      <div class="who-inner">
+        <p class="label label-lime reveal">Is dit voor jou?</p>
+        <h2 class="section-title section-title-white reveal reveal-delay-1" style="max-width:580px;margin-bottom:20px;">Dit is voor jou als je bedrijf klaar is om te draaien zonder dat jij alles zelf manueel moet doen.</h2>
+        <p class="who-intro reveal reveal-delay-2">Als een van deze punten klopt, weet je na een gesprek van 30 minuten precies wat er kan worden opgelost en hoe.</p>
+        <ul class="who-list">
+          <li class="reveal"><span class="who-arrow">→</span>Je bent wekelijks meer dan 10 uur kwijt aan repetitief manueel werk dat automatisch zou kunnen lopen.</li>
+          <li class="reveal reveal-delay-1"><span class="who-arrow">→</span>Je hebt tools zoals Zapier of Make geprobeerd, maar ze werkten niet op de manier waarop jouw bedrijf écht in elkaar zit.</li>
+          <li class="reveal reveal-delay-2"><span class="who-arrow">→</span>Je wil meer klanten of bestellingen aannemen, maar zo werken schaalt niet zonder extra mensen bij te nemen.</li>
+          <li class="reveal reveal-delay-3"><span class="who-arrow">→</span>Je weet dat er iets moet veranderen, maar je weet niet wat je als eerste aanpakt of hoe je dat doet.</li>
+          <li class="reveal reveal-delay-4"><span class="who-arrow">→</span>Je doet zelf nog taken die al lang van jouw bord hadden moeten zijn.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="trust">
+    <div class="container">
+      <p class="trust-label reveal">Waarom bedrijven ASBM vertrouwen</p>
+      <div class="trust-inner">
+        <div class="stat reveal"><strong><span class="counter" data-target="10">0</span>+</strong><em>Uur bespaard per klant per week</em></div>
+        <div class="stat reveal reveal-delay-1"><strong>Door heel Europa</strong><em>Ondersteuning voor KMO’s in meerdere EU-markten</em></div>
+        <div class="stat reveal reveal-delay-2"><strong>30<span style="font-size:32px;vertical-align:middle;margin-left:4px;"> min</span></strong><em>Om te weten of AI jou kan helpen</em></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <div class="cta-content">
+      <div class="container">
+        <p class="label label-lime reveal" style="margin-bottom:20px;">Gratis gesprek van 30 minuten</p>
+        <h2 class="reveal reveal-delay-1">Ontdek in 30 minuten<br /><span>waar je bedrijf tijd verliest</span></h2>
+        <p class="cta-sub reveal reveal-delay-2">Je hoeft niet met een voorbereide briefing af te komen. Vertel gewoon hoe je bedrijf vandaag werkt. In een halfuur weet je precies waar het manuele werk kan wegvallen.</p>
+        <a href="https://zcal.co/i/IpigkcAU" class="btn-primary reveal reveal-delay-3" style="font-size:16px;padding:16px 36px;">Boek een gratis gesprek →</a>
+        <div class="cta-meta reveal reveal-delay-4">
+          <span class="cta-meta-item">Geen verbintenis</span>
+          <span class="cta-meta-item">Gratis gesprek</span>
+          <span class="cta-meta-item">Echte antwoorden in 30 minuten</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="/nl" class="footer-logo-link"><img src="/ASBM%20logo%20no%20background%201.png" alt="ASBM" width="120" height="36" /></a>
+          <p>AI-automatisering voor kleine bedrijven in Europa. Wij vinden de knelpunten. Wij lossen ze op. Jij wint tijd.</p>
+        </div>
+        <div class="footer-col"><h4>Navigatie</h4><ul><li><a href="/nl/diensten">Diensten</a></li><li><a href="/nl/over-ons">Over ons</a></li><li><a href="/nl/contact">Contact</a></li><li><a href="https://zcal.co/i/IpigkcAU">Boek een gesprek</a></li></ul></div>
+        <div class="footer-col"><h4>Contact</h4><ul><li><a href="https://zcal.co/i/IpigkcAU">Boek een kennismakingsgesprek</a></li><li><a href="https://wa.me/32456990218">WhatsApp ons</a></li><li><a href="mailto:info@as-bm.eu">info@as-bm.eu</a></li><li><a href="https://www.linkedin.com/company/asbm-grow-your-business/" target="_blank">LinkedIn</a></li></ul></div>
+        <div class="footer-col"><h4>Juridisch</h4><ul><li><a href="/nl/privacy">Privacybeleid</a></li></ul></div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 ASBM. Alle rechten voorbehouden. Gebouwd met liefde vanuit Europa.</p>
+        <div class="footer-langs"><a href="/en">EN</a><span class="sep">·</span><a href="/nl" class="active">NL</a><span class="sep">·</span><a href="/fr">FR</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/32456990218" class="wa-float" title="Chat via WhatsApp" target="_blank" aria-label="Chat via WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <script>
+    const nav=document.getElementById('nav');
+    window.addEventListener('scroll',()=>{nav.classList.toggle('scrolled',window.scrollY>20)},{passive:true});
+    const reveals=document.querySelectorAll('.reveal');
+    const observer=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');observer.unobserve(e.target)}})},{threshold:.12});
+    reveals.forEach(el=>observer.observe(el));
+    reveals.forEach(el=>{const r=el.getBoundingClientRect();if(r.top<window.innerHeight)el.classList.add('visible')});
+    function animateCounter(el){const t=+el.dataset.target,d=1200,s=performance.now(),u=n=>{const p=Math.min((n-s)/d,1);el.textContent=Math.floor(p*t);if(p<1)requestAnimationFrame(u);else el.textContent=t};requestAnimationFrame(u)}
+    const counters=document.querySelectorAll('.counter');
+    const cObs=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){animateCounter(e.target);cObs.unobserve(e.target)}})},{threshold:.5});
+    counters.forEach(el=>cObs.observe(el));
+  
+    // Mobile menu
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobile-menu');
+    if (hamburger && mobileMenu) {
+      hamburger.addEventListener('click', () => {
+        const open = mobileMenu.classList.toggle('open');
+        hamburger.classList.toggle('open', open);
+        hamburger.setAttribute('aria-expanded', String(open));
+        document.body.style.overflow = open ? 'hidden' : '';
+      });
+      mobileMenu.querySelectorAll('a').forEach(a => {
+        a.addEventListener('click', () => {
+          mobileMenu.classList.remove('open');
+          hamburger.classList.remove('open');
+          hamburger.setAttribute('aria-expanded', 'false');
+          document.body.style.overflow = '';
+        });
+      });
+    }
+  </script>
+</body>
+</html>

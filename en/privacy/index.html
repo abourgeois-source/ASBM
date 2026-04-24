@@ -1,0 +1,361 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy | ASBM</title>
+  <meta name="description" content="Privacy policy for ASBM. How we collect, use, and protect your personal data in accordance with GDPR." />
+  <meta name="robots" content="noindex, follow" />
+  <link rel="canonical" href="https://as-bm.eu/en/privacy/" />
+  <link rel="alternate" hreflang="en" href="https://as-bm.eu/en/privacy/" />
+  <link rel="alternate" hreflang="nl" href="https://as-bm.eu/nl/privacy/" />
+  <link rel="alternate" hreflang="fr" href="https://as-bm.eu/fr/privacy/" />
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <link rel="preload" href="/fonts/Graphik%20Family/Graphik-Regular-Trial.otf" as="font" type="font/otf" crossorigin />
+  <link rel="preload" href="/fonts/Graphik%20Family/Graphik-Bold-Trial.otf" as="font" type="font/otf" crossorigin />
+  <style>
+    @font-face{font-family:'Graphik';src:url('/fonts/Graphik Family/Graphik-Regular-Trial.otf') format('opentype');font-weight:400;font-style:normal;font-display:swap}
+    @font-face{font-family:'Graphik';src:url('/fonts/Graphik Family/Graphik-Medium-Trial.otf') format('opentype');font-weight:500;font-style:normal;font-display:swap}
+    @font-face{font-family:'Graphik';src:url('/fonts/Graphik Family/Graphik-Semibold-Trial.otf') format('opentype');font-weight:600;font-style:normal;font-display:swap}
+    @font-face{font-family:'Graphik';src:url('/fonts/Graphik Family/Graphik-Bold-Trial.otf') format('opentype');font-weight:700;font-style:normal;font-display:swap}
+    @font-face{font-family:'Graphik';src:url('/fonts/Graphik Family/Graphik-Black-Trial.otf') format('opentype');font-weight:800;font-style:normal;font-display:swap}
+    :root{--mid:#0E1B2C;--lime:#D4FF4F;--bone:#F5F5F2;--slate:#8A93A5;--text:#1C1C1E;--white:#FFFFFF;--ease:cubic-bezier(0.4,0,0.2,1)}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:'Graphik',system-ui,sans-serif;font-size:17px;line-height:1.7;color:var(--text);background:var(--bone);-webkit-font-smoothing:antialiased}
+    .container{max-width:1120px;margin:0 auto;padding:0 28px}
+    .btn-primary{display:inline-flex;align-items:center;background:var(--lime);color:var(--mid);font-family:'Graphik',sans-serif;font-weight:600;font-size:15px;padding:13px 26px;border-radius:8px;text-decoration:none;transition:transform .18s var(--ease),box-shadow .18s var(--ease);box-shadow:0 2px 12px rgba(212,255,79,.35)}
+    .btn-primary:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(212,255,79,.45)}.btn-primary:active{transform:scale(.97)}
+    nav{background:var(--mid);position:sticky;top:0;z-index:500;border-bottom:1px solid rgba(255,255,255,.06)}
+    .nav-inner{display:flex;align-items:center;justify-content:space-between;height:68px}
+    .nav-logo{display:flex;align-items:center;text-decoration:none}.nav-logo img{height:36px;width:auto;object-fit:contain;filter:brightness(0) invert(1)}
+    .nav-links{display:flex;list-style:none;gap:36px}
+    .nav-links a{color:rgba(255,255,255,.68);text-decoration:none;font-size:14px;font-weight:500;transition:color .18s var(--ease)}.nav-links a:hover{color:var(--white)}
+    .nav-right{display:flex;align-items:center;gap:16px}
+    .lang-switcher{display:flex;gap:6px}.lang-switcher a{color:rgba(255,255,255,.38);font-size:12px;font-weight:600;text-decoration:none;letter-spacing:.8px;transition:color .18s}.lang-switcher a:hover,.lang-switcher a.active{color:var(--lime)}.lang-sep{color:rgba(255,255,255,.15);font-size:11px;align-self:center}
+    .page-hero{background:var(--mid);padding:64px 0 56px;position:relative;overflow:hidden}
+    .page-hero::before{content:'';position:absolute;top:-80px;left:50%;transform:translateX(-50%);width:700px;height:400px;background:radial-gradient(ellipse at center,rgba(212,255,79,.06) 0%,transparent 70%);pointer-events:none}
+    .page-hero-content{position:relative;z-index:1}
+    .page-eyebrow{display:inline-block;background:rgba(212,255,79,.12);border:1px solid rgba(212,255,79,.2);color:var(--lime);font-size:11px;font-weight:600;letter-spacing:2px;text-transform:uppercase;padding:5px 14px;border-radius:100px;margin-bottom:20px}
+    .page-hero h1{font-family:'Graphik',sans-serif;color:var(--white);font-size:clamp(28px,3.5vw,42px);font-weight:800;letter-spacing:-.03em;line-height:1.2;margin-bottom:10px}
+    .page-hero p{color:rgba(255,255,255,.45);font-size:14px;font-weight:500}
+    .privacy-wrap{max-width:760px;margin:0 auto;padding:72px 28px 96px}
+    .privacy-wrap h2{font-family:'Graphik',sans-serif;font-size:20px;font-weight:700;color:var(--mid);margin:52px 0 14px;padding-top:52px;border-top:1px solid rgba(14,27,44,.08);letter-spacing:-.01em}
+    .privacy-wrap h2:first-child{margin-top:0;padding-top:0;border-top:none}
+    .privacy-wrap p{color:var(--text);font-size:16px;line-height:1.8;margin-bottom:16px}.privacy-wrap p:last-child{margin-bottom:0}
+    .privacy-wrap ul{list-style:none;margin:0 0 16px}
+    .privacy-wrap ul li{padding:9px 0 9px 22px;position:relative;color:var(--text);font-size:16px;line-height:1.65;border-bottom:1px solid rgba(14,27,44,.06)}.privacy-wrap ul li:last-child{border-bottom:none}
+    .privacy-wrap ul li::before{content:'→';position:absolute;left:0;color:var(--slate);font-size:12px;top:12px}
+    .privacy-wrap a{color:var(--mid);font-weight:600;text-underline-offset:3px}.privacy-wrap a:hover{color:var(--slate)}
+    .info-box{background:var(--white);border:1px solid rgba(14,27,44,.07);border-left:3px solid var(--lime);border-radius:10px;padding:20px 24px;margin:24px 0}
+    .info-box p{margin:0;font-size:15px;color:var(--slate);line-height:1.65}.info-box strong{color:var(--mid);display:block;margin-bottom:6px;font-size:12px;text-transform:uppercase;letter-spacing:1.5px;font-weight:700}
+    footer{background:#08111C;padding:32px 0;border-top:1px solid rgba(255,255,255,.06)}
+    .footer-min{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
+    .footer-min p{color:rgba(255,255,255,.22);font-size:12.5px}
+    .footer-logo-link{display:flex;align-items:center;text-decoration:none}.footer-logo-link img{height:28px;width:auto;object-fit:contain;filter:brightness(0) invert(1)}
+    .footer-langs{display:flex;gap:10px;align-items:center}.footer-langs a{color:rgba(255,255,255,.3);font-size:12px;font-weight:600;letter-spacing:.8px;text-decoration:none;transition:color .18s}.footer-langs a:hover,.footer-langs a.active{color:var(--lime)}.footer-langs .sep{color:rgba(255,255,255,.15)}
+    .wa-float{position:fixed;bottom:28px;right:28px;width:54px;height:54px;background:#25D366;border-radius:50%;display:flex;align-items:center;justify-content:center;text-decoration:none;box-shadow:0 4px 20px rgba(37,211,102,.4);transition:transform .22s var(--ease);z-index:400}
+    .wa-float:hover{transform:scale(1.08)}
+    @media(max-width:768px){.nav-links{display:none}}
+  
+    /* ── MOBILE NAV ─────────────────────────────────────── */
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      justify-content: center;
+      gap: 5px;
+      width: 36px;
+      height: 36px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 4px;
+      z-index: 1001;
+      flex-shrink: 0;
+    }
+    .hamburger span {
+      display: block;
+      width: 22px;
+      height: 2px;
+      background: var(--white);
+      border-radius: 2px;
+      transition: transform 0.25s var(--ease), opacity 0.2s;
+    }
+    .hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .hamburger.open span:nth-child(2) { opacity: 0; }
+    .hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+    .mobile-menu {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: var(--mid);
+      z-index: 999;
+      flex-direction: column;
+      padding: 88px 28px 48px;
+      overflow-y: auto;
+    }
+    .mobile-menu.open { display: flex; }
+    .mobile-menu-links {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      margin-bottom: 40px;
+    }
+    .mobile-menu-links li a {
+      display: block;
+      color: rgba(255,255,255,0.75);
+      text-decoration: none;
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      padding: 12px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.07);
+      transition: color 0.18s;
+    }
+    .mobile-menu-links li a:hover,
+    .mobile-menu-links li a.active { color: var(--lime); }
+    .mobile-menu-bottom {
+      margin-top: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .mobile-menu-langs {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+    }
+    .mobile-menu-langs a {
+      color: rgba(255,255,255,0.38);
+      font-size: 13px;
+      font-weight: 600;
+      text-decoration: none;
+      letter-spacing: 0.8px;
+      transition: color 0.18s;
+    }
+    .mobile-menu-langs a:hover,
+    .mobile-menu-langs a.active { color: var(--lime); }
+    .mobile-menu-langs .sep { color: rgba(255,255,255,0.15); }
+    .mobile-menu .btn-primary { align-self: flex-start; }
+    @media (max-width: 768px) {
+      .hamburger { display: flex; }
+      .nav-links { display: none !important; }
+      .nav-right { display: none !important; }
+      .container { padding: 0 20px; }
+      .hero { padding: 64px 0 56px !important; }
+      .hero h1 { font-size: clamp(30px, 9vw, 46px); }
+      .hero-sub { font-size: 16px; }
+      .hero-ctas { flex-direction: column; align-items: stretch; }
+      .hero-ctas a { justify-content: center; }
+      .problem, .how { padding: 64px 0 !important; }
+      section { padding: 64px 0 !important; }
+      .section-title { font-size: clamp(22px, 6vw, 32px) !important; }
+      .pain-grid, .steps, .outcomes-grid { grid-template-columns: 1fr !important; }
+      .problem-intro, .solution-intro, .how-header { grid-template-columns: 1fr !important; gap: 20px !important; }
+      .trust-inner { flex-direction: column; gap: 32px; align-items: flex-start; }
+      .footer-top { grid-template-columns: 1fr !important; gap: 28px; }
+      .footer-bottom { flex-direction: column; align-items: flex-start; gap: 12px; }
+      .wa-float { bottom: 20px; right: 20px; width: 46px; height: 46px; }
+    }
+  </style>
+</head>
+<body>
+  <!-- ── MOBILE MENU ──────────────────────────────────── -->
+  <div class="mobile-menu" id="mobile-menu" role="dialog" aria-label="Navigation">
+    <ul class="mobile-menu-links">
+      <li><a href="/en">Home</a></li>
+          <li><a href="/en/services">Services</a></li>
+          <li><a href="/en/about">About</a></li>
+          
+          <li><a href="/en/blog">Blog</a></li><li><a href="/en/contact">Contact</a></li>
+    </ul>
+    <div class="mobile-menu-bottom">
+      <div class="mobile-menu-langs"><a href="/en/privacy" class="active">EN</a><span class="sep">·</span><a href="/nl/privacy">NL</a><span class="sep">·</span><a href="/fr/privacy">FR</a></div>
+      <a href="https://zcal.co/i/IpigkcAU" class="btn-primary">Book a free call →</a>
+    </div>
+  </div>
+  <nav>
+    <div class="container">
+      <div class="nav-inner">
+        <a href="/en" class="nav-logo"><img src="/ASBM%20logo%20no%20background%201.png" alt="ASBM" width="120" height="36" /></a>
+        <ul class="nav-links">
+          <li><a href="/en">Home</a></li>
+          <li><a href="/en/services">Services</a></li>
+          <li><a href="/en/about">About</a></li>
+          
+          <li><a href="/en/blog">Blog</a></li><li><a href="/en/contact">Contact</a></li>
+        </ul>
+        <div class="nav-right">
+          <div class="lang-switcher">
+            <a href="/en/privacy" class="active">EN</a><span class="lang-sep">·</span>
+            <a href="/nl/privacy">NL</a><span class="lang-sep">·</span>
+            <a href="/fr/privacy">FR</a>
+          </div>
+          <a href="https://zcal.co/i/IpigkcAU" class="btn-primary">Book a free call</a>
+        </div>
+        <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="page-hero">
+    <div class="container page-hero-content">
+      <div class="page-eyebrow">Legal</div>
+      <h1>Privacy Policy</h1>
+      <p>Last updated: April 2026</p>
+    </div>
+  </div>
+
+  <div class="privacy-wrap">
+    <div class="info-box">
+      <strong>Data controller</strong>
+      <p>ASBM, operated by Aljosja Bourgeois — <a href="mailto:info@as-bm.eu">info@as-bm.eu</a> — +32 456 99 02 18</p>
+    </div>
+
+    <h2>1. Who we are</h2>
+    <p>ASBM is an AI automation agency helping small and medium businesses across Europe eliminate manual work and improve operational efficiency. This policy explains how we collect and use personal data when you visit our website or contact us.</p>
+
+    <h2>2. What data we collect</h2>
+    <p>We may collect the following personal data:</p>
+    <ul>
+      <li>Name and email address when you book a call or send us a message</li>
+      <li>Phone number if you contact us via WhatsApp or provide it voluntarily</li>
+      <li>Company name and job title if you share them during contact</li>
+      <li>IP address and browser information collected automatically by our hosting provider</li>
+      <li>Booking details (date, time, notes) when you use our Zcal booking link</li>
+    </ul>
+
+    <h2>3. Why we collect it</h2>
+    <p>We collect personal data for the following purposes:</p>
+    <ul>
+      <li>To respond to enquiries and schedule discovery calls (legitimate interest / contract performance)</li>
+      <li>To send confirmations and reminders related to booked calls (contract performance)</li>
+      <li>To follow up after a call if you have expressed interest in working with us (legitimate interest)</li>
+      <li>To comply with legal obligations where applicable</li>
+    </ul>
+    <p>We do not send marketing emails without your explicit consent. We do not sell or share your data with third parties for marketing purposes.</p>
+
+    <h2>4. Legal basis for processing</h2>
+    <p>Under the GDPR, we process your personal data on the following legal bases:</p>
+    <ul>
+      <li><strong>Contract performance</strong> — when processing is necessary to fulfil a booking or service agreement</li>
+      <li><strong>Legitimate interest</strong> — when following up on an expressed interest in our services</li>
+      <li><strong>Legal obligation</strong> — when required by applicable law</li>
+      <li><strong>Consent</strong> — where you have explicitly opted in (e.g. newsletter subscription, if applicable)</li>
+    </ul>
+
+    <h2>5. How long we keep your data</h2>
+    <ul>
+      <li>Contact and booking data is kept for up to 2 years after our last interaction</li>
+      <li>Client data related to active projects is kept for the duration of the engagement plus 5 years for legal and accounting purposes</li>
+      <li>You can request deletion of your data at any time (see section 7)</li>
+    </ul>
+
+    <h2>6. Third-party services</h2>
+    <p>We use a small number of third-party tools to operate our website and booking system:</p>
+    <ul>
+      <li><strong>Zcal</strong> — our booking platform. When you book a call, your name and email are processed by Zcal. See their privacy policy at zcal.co.</li>
+      <li><strong>Vercel</strong> — our website hosting provider. Server logs may include your IP address. See Vercel's privacy policy at vercel.com.</li>
+      <li><strong>Google Fonts</strong> — used for typography. Fonts are loaded from Google's servers, which may log your IP address.</li>
+    </ul>
+    <p>We do not use advertising trackers, Facebook Pixel, or any behavioural profiling tools on this website.</p>
+
+    <h2>7. Your rights under GDPR</h2>
+    <p>As a person whose data we process, you have the following rights:</p>
+    <ul>
+      <li><strong>Right of access</strong> — you can request a copy of the personal data we hold about you</li>
+      <li><strong>Right to rectification</strong> — you can ask us to correct inaccurate data</li>
+      <li><strong>Right to erasure</strong> — you can ask us to delete your personal data</li>
+      <li><strong>Right to restriction</strong> — you can ask us to limit how we use your data</li>
+      <li><strong>Right to data portability</strong> — you can request your data in a machine-readable format</li>
+      <li><strong>Right to object</strong> — you can object to processing based on legitimate interest</li>
+    </ul>
+    <p>To exercise any of these rights, contact us at <a href="mailto:info@as-bm.eu">info@as-bm.eu</a>. We will respond within 30 days.</p>
+
+    <h2>8. Cookies</h2>
+    <p>This website uses only essential technical cookies required for the site to function. We do not use analytics cookies, advertising cookies, or any tracking cookies without your consent.</p>
+    <p>If we add analytics or other cookie-based tools in the future, we will update this policy and implement a proper consent mechanism.</p>
+
+    <h2>9. Data security</h2>
+    <p>We take reasonable technical and organisational measures to protect your personal data against unauthorised access, loss, or misuse. Our website is served over HTTPS. Access to personal data is limited to Aljosja Bourgeois and, where necessary for service delivery, members of the ASBM delivery team.</p>
+
+    <h2>10. International transfers</h2>
+    <p>ASBM is based in Belgium (European Union). If any data is processed outside the EU (for example, through third-party tools), we ensure adequate safeguards are in place in accordance with GDPR requirements.</p>
+
+    <h2>11. Complaints</h2>
+    <p>If you believe we are handling your personal data unlawfully, you have the right to lodge a complaint with the Belgian Data Protection Authority:</p>
+    <div class="info-box">
+      <strong>Belgian Data Protection Authority</strong>
+      <p>Autorité de protection des données (APD) / Gegevensbeschermingsautoriteit (GBA)<br />
+      Rue de la Presse 35 / Drukpersstraat 35, 1000 Brussels<br />
+      <a href="https://www.dataprotectionauthority.be" target="_blank">www.dataprotectionauthority.be</a></p>
+    </div>
+
+    <h2>12. Changes to this policy</h2>
+    <p>We may update this privacy policy from time to time. The date at the top of this page reflects the most recent update. Continued use of this website after any changes constitutes acceptance of the updated policy.</p>
+
+    <h2>13. Contact</h2>
+    <p>For any questions about this privacy policy or how we handle your data, contact us at:</p>
+    <div class="info-box">
+      <strong>ASBM — Aljosja Bourgeois</strong>
+      <p><a href="mailto:info@as-bm.eu">info@as-bm.eu</a><br />+32 456 99 02 18</p>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="footer-min">
+        <a href="/en" class="footer-logo-link"><img src="/ASBM%20logo%20no%20background%201.png" alt="ASBM" width="120" height="36" /></a>
+        <p>© 2026 ASBM. All rights reserved. Built with love from Europe.</p>
+        <div class="footer-langs">
+          <a href="/en/privacy" class="active">EN</a><span class="sep">·</span>
+          <a href="/nl/privacy">NL</a><span class="sep">·</span>
+          <a href="/fr/privacy">FR</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/32456990218" class="wa-float" target="_blank" aria-label="WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <script>
+    // Nav scroll
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => { nav.classList.toggle('scrolled', window.scrollY > 20); }, { passive: true });
+    // Scroll reveal
+    const reveals = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); } });
+    }, { threshold: 0.12 });
+    reveals.forEach(el => observer.observe(el));
+    reveals.forEach(el => { if (el.getBoundingClientRect().top < window.innerHeight) el.classList.add('visible'); });
+    // Mobile menu
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobile-menu');
+    if (hamburger && mobileMenu) {
+      hamburger.addEventListener('click', () => {
+        const open = mobileMenu.classList.toggle('open');
+        hamburger.classList.toggle('open', open);
+        hamburger.setAttribute('aria-expanded', String(open));
+        document.body.style.overflow = open ? 'hidden' : '';
+      });
+      mobileMenu.querySelectorAll('a').forEach(a => {
+        a.addEventListener('click', () => {
+          mobileMenu.classList.remove('open');
+          hamburger.classList.remove('open');
+          hamburger.setAttribute('aria-expanded', 'false');
+          document.body.style.overflow = '';
+        });
+      });
+    }
+  </script>
+
+</body>
+</html>

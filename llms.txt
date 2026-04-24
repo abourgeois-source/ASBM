@@ -1,0 +1,36 @@
+# ASBM — AI Workflow Automation for European SMEs
+
+ASBM is a Belgian AI automation agency founded by Aljosja Bourgeois,
+serving small and medium enterprises across Europe. We identify the
+biggest operational bottlenecks in a business and build AI-powered
+automations that eliminate them — saving clients 10+ hours per week.
+
+Contact: info@as-bm.eu
+Phone: +32 456 99 02 18
+Languages: EN, NL, FR
+Region: European Union (Belgium-based)
+
+## Services
+
+- AI Automation Consulting: A focused session that identifies which processes cost the most time and delivers a prioritised roadmap with estimated time savings.
+- AI Workflow Audit: A deep-dive audit that maps how data moves through the business, surfaces hidden inefficiencies, and delivers a concrete report with every opportunity and its projected time saving.
+- Intelligent Automation Implementation: End-to-end build of AI-powered automations — data integration, workflow automation, document AI processing, and communication automation.
+- Ongoing Support & Maintenance: Proactive monitoring, API update handling, monthly performance reviews, and direct support from the team that built the system.
+
+## Pages
+
+- /en: English homepage
+- /nl: Dutch homepage
+- /fr: French homepage
+- /en/services: Service descriptions (English)
+- /nl/diensten: Service descriptions (Dutch)
+- /fr/services: Service descriptions (French)
+- /en/about: About ASBM and founder Aljosja Bourgeois (English)
+- /nl/over-ons: About ASBM (Dutch)
+- /fr/a-propos: About ASBM (French)
+- /en/contact: Book a free discovery call (English)
+- /nl/contact: Boek een gratis gesprek (Dutch)
+- /fr/contact: Réserver un appel gratuit (French)
+- /en/blog: Blog (English)
+- /nl/blog: Blog (Dutch)
+- /fr/blog: Blog (French)
