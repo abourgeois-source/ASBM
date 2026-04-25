@@ -118,6 +118,35 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- FAQ -->
+  <url>
+    <loc>https://as-bm.eu/en/faq/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://as-bm.eu/en/faq/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-bm.eu/en/faq/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://as-bm.eu/nl/faq/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://as-bm.eu/fr/faq/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://as-bm.eu/nl/faq/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://as-bm.eu/en/faq/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-bm.eu/en/faq/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://as-bm.eu/nl/faq/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://as-bm.eu/fr/faq/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://as-bm.eu/fr/faq/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://as-bm.eu/en/faq/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://as-bm.eu/en/faq/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://as-bm.eu/nl/faq/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://as-bm.eu/fr/faq/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- Blog -->
   <url>
     <loc>https://as-bm.eu/en/blog/</loc>
