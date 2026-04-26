@@ -10,4 +10,5 @@ Allow: /
 User-agent: PerplexityBot
 Allow: /
 
+Sitemap: https://as-bm.eu/sitemap.txt
 Sitemap: https://as-bm.eu/sitemap.xml
